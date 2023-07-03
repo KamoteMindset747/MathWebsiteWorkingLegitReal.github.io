@@ -1,0 +1,233 @@
+body {
+  background-image: url(peakpx.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.Parag1, .Parag2{
+  background-color: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100px;
+  background-color: lightpink;
+  transition: all 0.2s;
+}
+
+ul {
+  text-align: center;
+
+  li {
+    list-style-type: none;
+    display: inline-block;
+    line-height: 100px;
+  a {
+    display: block;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: "Roboto Mono";
+    color: white;
+    padding: 0 20px;
+    }
+  }
+}
+
+nav:hover {
+  @extend nav;
+  background-color: pink;
+
+  .H:hover,
+  .P:hover,
+  .T:hover,
+  .S:hover,
+  .T2:hover {
+    transform: translateY(-10px);
+    transition: all 0.2s;
+  }
+}
+
+.Parag1{
+  display: block;
+  text-align: center;
+  margin: auto;
+  border: 5px solid black;
+  width: 750px;
+  .H1{
+    display: block;
+    font-family: "Roboto Mono";
+    font-size: 50px;
+  }
+  .P1{
+    font-family: Arial;
+    font-size: 20px;
+  }
+}
+
+.Parag2{
+  display: block;
+  text-align: center;
+  margin: auto;
+  border: 5px solid black;
+  width: 750px;
+  .H1{
+    display: block;
+    font-family: "Roboto Mono";
+    font-size: 50px;
+  }
+  .P1{
+    font-family: Arial;
+    font-size: 20px;
+  }
+}
+
+.Img1, .Img2, .Img4, .Img5{
+  margin: auto;
+  display: block;
+  width: 680px;
+  height: 480px;
+  border: 5px solid black;
+  transition: all 0.2s;
+}
+
+.Img3{
+  margin: auto;
+  display: block;
+  width: 700px;
+  height: 750px;
+  border: 5px solid black;
+  transition: all 0.2s;
+}
+
+.Img1:hover ,.Img4:hover, .Img5:hover{
+  @extend .Img1;
+  width: 700px;
+  height: 500px;
+  border: 5px solid black;
+  transform: translate(0px, -20px);
+}
+
+.Img2:hover{
+  width: 700px;
+  height: 500px;
+  border: 5px solid black;
+  transform: translate(0px, -20px);
+}
+
+.Img3:hover{
+  width: 720px;
+  height: 800px;
+  border: 5px solid black;
+  transform: translate(0px, -20px);
+}
+
+.P2{
+  font-family: Arial;
+  font-size: 30px;
+  display: block;
+  text-align: left;
+  margin: 2px;
+}
+
+.Img6, .Img7, .Img8, .Img10, .Img11, .Img12, .Img13,
+ .Img14, .Img16, .Img17, .Img18, .Img19, .Img20{
+  display: block;
+  border: 5px solid black;
+  margin: auto;
+  width: 680px;
+  height: 480px;
+  transition: all 0.2s;
+}
+
+.Img9{
+  display: block;
+  border: 5px solid black;
+  margin: auto;
+  width: 680px;
+  transition: all 0.2s;
+}
+
+.Img6:hover, .Img7:hover, .Img8:hover, .Img10:hover, 
+.Img11:hover, .Img12:hover, .Img13:hover, .Img14:hover, 
+.Img16:hover, .Img17:hover, .Img18:hover, .Img19:hover
+,.Img20:hover{
+  @extend .Img6;
+  width: 720px;
+  height: 520px;
+  transform: translateY(-10px);
+}
+
+.Img9:hover{
+  width: 720px;
+}
+
+.Img21{
+  width: 680px;
+  margin: auto;
+  border: 5px solid black;
+  transition: all 0.2s;
+}
+
+.Img21:hover{
+  @extend .Img21;
+  width: 720px;
+  transform: translateY(-10px);
+}
+
+.Img22, .Img23, .Img24, .Img25, .Img26, .Img28, .Img29, .Img30
+, .Img31, .Img32, .Img33{
+  display: block;
+  width: 680px;
+  margin: auto;
+  border: 5px solid black;
+  transition: all 0.2s;
+}
+
+.Img22:hover, .Img23:hover, .Img24:hover, .Img25:hover,
+ .Img26:hover, .Img28:hover, .Img29:hover, .Img30:hover
+ , .Img31:hover, .Img32:hover, .Img33:hover{
+  @extend .Img22;
+  width: 720px;
+  transform: translateY(-10px);
+}
+
+.Exam1, .Exam2, .Exam3{
+  width: 680px;
+  height: 480px;
+}
+
+.Int1, .Int2, .Int3, .Int4, .Int5, .Int6, .Int7, .Int8, .Int9, .Int10, .Int11, .Int12, .Int13, .Int14, .Int15{
+  text-align: center;
+  margin: auto;
+  display: block;
+  width: 400px;
+  height: 200px;
+  font-size: 100px;
+}
+
+.Input1, .Input2, .Input3, .Input4, .Input5, .Input6, .Input7, .Input8, .Input9, .Input10, .Input11, .Input12, .Input13, .Input14, .Input15{
+  text-align: center;
+  margin: auto;
+  display: block;
+  font-size: 40px;
+  width: 250px;
+  height: 100px;
+  transition: all 0.2s;
+}
+
+.Input1:hover, .Input2:hover, .Input3:hover, .Input4:hover, .Input5:hover, .Input6:hover, .Input7:hover, .Input8:hover, .Input9:hover, .Input10:hover, .Input11:hover, .Input12:hover, .Input13:hover, .Input14:hover, .Input15:hover{
+  text-align: center;
+  display: block;
+  color: white;
+  background-color: pink;
+  width: 280px;
+  transform: translateY(-10px);
+}
